@@ -1,0 +1,10 @@
+.dir {
+  min-height: 85vh;
+}
+.direction {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
