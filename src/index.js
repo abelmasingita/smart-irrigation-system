@@ -5,9 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Auth0Provider} from '@auth0/auth0-react'
 
-const domain = process.env.REACT_APP_AUTH0_DOMAIN
-const clientid = process.env.REACT_APP_AUTH0_CLIENT_ID
-
 ReactDOM.render(
   <Auth0Provider
      domain="dev-rbw-u3ak.us.auth0.com"
