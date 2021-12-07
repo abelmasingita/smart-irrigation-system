@@ -14,12 +14,12 @@ const HomePage = () => {
             <main>
                 <Container className='dir'>
                     <div className='direction'>
-                        <iframe key="1"
+                        <iframe title="water"
                                 width="500" height="300" 
                                 frameborder="0" 
                                 src="https://stem.ubidots.com/app/dashboards/public/widget/7czorBw-BCnzzSAZxZTbGJxq79rgzLWEc1oEw0m5i_4?embed=true">              
                         </iframe>
-                        <iframe width="500" height="300" key="2"
+                        <iframe width="500" height="300" title="soil"
                                 frameborder="0"
                                 src="https://stem.ubidots.com/app/dashboards/public/widget/ABrObhoXBjox48OvGmJ7wAl2021eVx_vgvmFUXVfdlM?embed=true">         
                         </iframe>
